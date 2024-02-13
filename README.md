@@ -20,7 +20,7 @@ Image Vault is a simple web application designed to securely manage user authent
 ### Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/image-vault.git
+   git clone https://github.com/AbhiSurve2412/image-vault.git
 2. Install NPM packages:
    npm install
 3. Create a `.env` file in the project root and fill in your MongoDB URI, Cloudinary details, and session secret:
