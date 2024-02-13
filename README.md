@@ -39,6 +39,6 @@ After starting the application, navigate to `http://localhost:3000` to access Im
 
 ## Contact
 
-Abhijit Surve-surveabhijit2002@gmail.com
+Abhijit Surve -surveabhijit2002@gmail.com
 
 Project Link: [https://github.com/yourusername/image-vault](https://github.com/yourusername/image-vault)
