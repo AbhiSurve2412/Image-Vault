@@ -1,0 +1,69 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Center the login form container */
+  .login-section-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 2rem auto;
+    width: 50%; /* Adjust based on preference */
+    max-width: 600px; /* Ensures the form does not get too wide */
+  }
+  
+  /* Heading styles for the login section */
+  .login-heading {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px; /* Provides adequate spacing below the heading */
+  }
+  
+  /* Style adjustments for login form fields */
+  .login-form-control {
+    height: 40px; /* Ideal height for accessibility and visibility */
+    padding: 10px;
+    font-size: 16px; /* Ensures text is easily readable */
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 15px; /* Provides space between form fields */
+    width: 100%; /* Full width of its container */
+  }
+  
+  /* Label styling for clarity within the login form */
+  .login-form-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #495057;
+    font-size: 14px;
+  }
+  
+  /* Styling for the 'Login' button */
+  .login-btn {
+    display: block; /* Ensures the button spans the full width of its container */
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px; /* Larger font size for easy interaction */
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .login-btn:hover {
+    background-color: #218838; /* Darker shade on hover for visual feedback */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .login-section-container {
+      width: 90%; /* Adjusts the form width on smaller screens */
+      padding: 20px; /* Adjusts padding for a compact look on smaller screens */
+    }
+  }
+  

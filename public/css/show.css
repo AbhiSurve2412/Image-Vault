@@ -1,0 +1,49 @@
+.image-show-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.image-show-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.card-img-top {
+  max-height: 400px; /* Set a maximum height for the image */
+  width: 100%; /* Ensure the image spans the full width of its container */
+  object-fit: contain; /* Ensures the entire image is visible, may add space around the image */
+  background: #f8f8f9; /* Background color for any space not covered by the image */
+  display: block; /* Ensure the image is a block-level element for margin auto to work */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.image-caption {
+  font-weight: bold;
+}
+
+.image-created-at {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.back-link {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.back-link:hover {
+  background-color: #0056b3;
+}
+
+.image-container {
+  height: 400px; /* Adjust based on your preference */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 20px; /* Space between the image and card body */
+  background-color: #f8f8f9; /* Optional: background color */
+}

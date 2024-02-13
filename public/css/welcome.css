@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .welcome-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    color: #007bff;
+  }
+  
+  /* Section Styles */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  section p, section ul {
+    line-height: 1.6;
+  }
+  
+  /* Features List */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM7.707 11.707 5.354 9.354a.5.5 0 0 0-.708 0l-.708.708a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708 0l5-5a.5.5 0 0 0 0-.708l-.708-.708a.5.5 0 0 0-.708 0L7.707 11.707z"/></svg>') no-repeat left center;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    background-size: 20px;
+    line-height: 1.5;
+  }
+  
+  /* Links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Get Started Section */
+  .get-started {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .get-started a {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-started a:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,209 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-left: 10rem;
+}
+/* General Navbar Styles */
+.navbar {
+  background-color: #ffffff; /* Light background for contrast with icons and text */
+  border-bottom: 2px solid #ebebeb; /* Subtle border for separation from content */
+  padding: 0.5rem 1rem; /* Comfortable padding around navbar content */
+}
+
+.navbar-brand {
+  color: #fe424d; /* Matching the .fa-compass color for brand consistency */
+  font-weight: bold; /* Makes the brand name stand out */
+  font-size: 1.2rem; /* Slightly larger font for brand prominence */
+}
+
+.navbar-toggler {
+  border: none; /* Removes default border */
+  outline: none; /* Removes the outline on focus for cleaner look */
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path stroke="#fe424d" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>'); /* Custom toggler icon with color matching the brand */
+}
+
+/* Enhanced Navbar Link Styles */
+.nav-link {
+  color: #222222; /* Dark color for readability */
+  margin: 0 0.5rem; /* Ensures spacing around links */
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition for hover effect and transform */
+  display: inline-block; /* Allows for transformation */
+  position: relative; /* Needed for pseudo-element positioning */
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #fe424d; /* Highlight color on hover/focus to match brand icon */
+  text-decoration: none; /* Removes underline to keep clean look */
+  transform: scale(1.05); /* Slightly enlarges the link */
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fe424d; /* Matching the brand color */
+  transition: width 0.3s ease-in-out; /* Smooth transition for the underline effect */
+}
+
+.nav-link:hover::after, .nav-link:focus::after {
+  width: 100%; /* Underline expands to full width on hover/focus */
+}
+/* Sticky Top */
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1020; /* Ensures navbar stays above other content */
+}
+
+/* Navbar Background Variation */
+.bg-body-light {
+  background-color: #f8f8f8; /* Slightly different background for contrast or thematic variation */
+}
+
+/* Footer */
+/* Footer General Styles */
+.footer {
+  background-color: #333; /* Dark background for contrast */
+  color: #fff; /* White text color */
+  padding: 2rem 0; /* Padding for spacing */
+  text-align: center; /* Center-align content */
+}
+
+.f-info {
+  display: flex;
+  justify-content: center; /* Center social icons horizontally */
+  align-items: center; /* Vertically center items */
+}
+
+.f-info-socials a {
+  margin: 0 1rem; /* Space out the icons */
+  color: #fff; /* White icons */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover Effect for Social Icons */
+.f-info-socials a:hover, .f-info-socials a:focus {
+  color: #fe424d; /* Change icon color on hover/focus */
+  transform: scale(1.2); /* Slightly enlarge the icons */
+}
+
+/* Social Icons */
+.fa-brands {
+  font-size: 1.5rem; /* Increase the size of the social icons */
+}
+
+
+/* main content css */
+.form-container {
+  margin: 2rem auto; /* Adds top and bottom margin of 2rem, and centers it horizontally */
+  background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  color: #333;
+}
+
+.form-container .container {
+  background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  color: #333;
+}
+
+
+.form-container h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-container .form-group {
+  margin-bottom: 1rem;
+  background: #f8f8f8;
+  border-radius: 5px;
+  padding: 0.5rem;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.form-container .form-group input[type="file"] {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+
+.form-container .btn {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+.form-container .btn:hover, .form-container .btn:focus {
+  background-color: #0056b3;
+  outline: none;
+}
+
+/* Cards */
+
+.row a {
+  text-decoration: none;
+}
+
+.image-card {
+border: none !important;
+margin-bottom: 2rem;
+}
+
+.card-img-top {
+border-radius: 1rem !important;
+width: 100% !important;
+object-fit: cover !important;
+}
+
+.card-body {
+padding: 0 !important;
+}
+
+.card-text p {
+font-weight: 400 !important;
+}
+
+/* Card Effect */
+.card-img-overlay{
+  opacity: 0;
+}
+
+.card-img-overlay:hover{
+  opacity: 0.3;
+  background-color: white;
+}
+
